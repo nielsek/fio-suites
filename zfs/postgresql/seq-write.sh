@@ -1,6 +1,6 @@
 #!/bin/sh
 
-dataset="/dana/data/postgresql"
+dataset="/dana/databases/postgresql"
 zpool="zroot"
 blocksize="8k" # the default PostgreSQL blocksize
 
