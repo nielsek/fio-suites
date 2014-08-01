@@ -14,3 +14,21 @@ random write|14616|14493|13764|20029|**32915**
 read write|13297|15674|**33314**|16401|20148
 sequential read|**54247**|44554|43283|44833|37181
 sequential write|91850|77036|157628|156832|**227029**
+
+
+* 7200rpm 1tb SATA + ZiL
+
+||4 disk mirror
+----|------|------|------|------|----
+compression LZ4||||			
+random read|2523
+random write|22551
+read write|24765
+sequential read|30747
+sequential write|119396
+compression off||||					
+random read|2371
+random write|19939
+read write|34313
+sequential read|43850
+sequential write|162632
